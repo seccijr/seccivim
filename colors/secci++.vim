@@ -2,7 +2,7 @@
 " Maintainer:   Carlos I. Pérez Sechi <secci.jr@gmail.com>
 " Last Change:  24 november 2015.
 
-set background=light
+set background=dark
 hi clear
 if exists("syntax_on")
     syntax reset
@@ -24,5 +24,5 @@ hi Todo         gui=bold,italic guifg=White     guibg=Pink
 hi LineNr       gui=italic      guifg=Black     guibg=#EBE9ED
 hi NonText      gui=bold        guifg=Grey70    guibg=White
 hi Visual       gui=NONE        guifg=DarkBlue  guibg=White
-hi Search       gui=NONE        guifg=NONE      guibg=#835c00
-hi CursorLine   gui=NONE        guifg=NONE      guibg=#060606
+hi CursorLine   term=underline  ctermbg=666     guibg=#3a3d45
+hi MatchParen   guifg=#e3e3e3   ctermfg=254     guibg=#000000   ctermbg=16  gui=none    cterm=none
