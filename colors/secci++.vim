@@ -29,4 +29,5 @@ hi Search       term=reverse    cterm=reverse   ctermbg=003     ctermfg=0       
 hi Directory    term=bold       ctermfg=33      guifg=#0000ff
 hi Function     ctermfg=039
 hi Conditional  ctermfg=207
-hi cType        ctermfg=011
+hi cType        ctermfg=118
+hi Type         ctermfg=204
