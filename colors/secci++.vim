@@ -14,7 +14,7 @@ hi Constant     ctermfg=208
 hi PreProc      ctermfg=013
 hi CursorLine   term=NONE       cterm=NONE      ctermbg=0
 hi Search       term=reverse    cterm=reverse   ctermbg=11      ctermfg=0
-hi Directory    term=bold       ctermfg=33
+hi Directory    term=bold       ctermfg=39
 hi Function     ctermfg=039
 hi Conditional  ctermfg=207
 hi cType        ctermfg=118
