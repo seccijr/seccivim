@@ -9,11 +9,11 @@ if exists("syntax_on")
 endif
 let g:colors_name="secci++"
 
-hi Comment      gui=italic      guifg=#335EA8   guibg=NONE
-hi Constant     gui=NONE        guifg=#004488   guibg=NONE
+hi Comment      gui=italic      ctermfg=242     guifg=#335EA8   guibg=NONE
+hi Constant     gui=NONE        guifg=#004488   guibg=NONE      ctermfg=009
 hi Identifier   gui=NONE        guifg=Black     guibg=NONE
 hi Statement    gui=bold        guifg=DarkBlue  guibg=NONE
-hi PreProc      gui=NONE        guifg=DarkGreen guibg=NONE
+hi PreProc      gui=NONE        ctermfg=013     guifg=DarkGreen guibg=NONE
 hi Type         gui=bold        guifg=DarkBlue  guibg=NONE
 hi Special      gui=NONE        guifg=#FF00FF   guibg=NONE
 hi String       gui=NONE        guifg=#969696   guibg=NONE
@@ -25,4 +25,8 @@ hi LineNr       gui=italic      guifg=Black     guibg=#EBE9ED
 hi NonText      gui=bold        guifg=Grey70    guibg=White
 hi Visual       gui=NONE        guifg=DarkBlue  guibg=White
 hi CursorLine   term=NONE       cterm=NONE      ctermbg=0       guibg=#3a3d45
-hi MatchParen   term=NONE       cterm=none      ctermbg=0       guibg=#000000
+hi Search       term=reverse    cterm=reverse   ctermbg=003     ctermfg=0       guibg=#000
+hi Directory    term=bold       ctermfg=33      guifg=#0000ff
+hi Function     ctermfg=039
+hi Conditional  ctermfg=207
+hi cType        ctermfg=011
