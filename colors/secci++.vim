@@ -24,5 +24,5 @@ hi Todo         gui=bold,italic guifg=White     guibg=Pink
 hi LineNr       gui=italic      guifg=Black     guibg=#EBE9ED
 hi NonText      gui=bold        guifg=Grey70    guibg=White
 hi Visual       gui=NONE        guifg=DarkBlue  guibg=White
-hi CursorLine   term=NONE       cterm=NONE      guibg=#3a3d45
-hi MatchParen   term=NONE       cterm=NONE      guibg=#000000
+hi CursorLine   term=NONE       cterm=NONE      ctermbg=0       guibg=#3a3d45
+hi MatchParen   term=NONE       cterm=none      ctermbg=0       guibg=#000000
