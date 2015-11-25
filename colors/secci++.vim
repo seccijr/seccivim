@@ -10,7 +10,7 @@ endif
 let g:colors_name="secci++"
 
 hi Comment      ctermfg=242
-hi Constant     ctermfg=009
+hi Constant     ctermfg=208
 hi PreProc      ctermfg=013
 hi CursorLine   term=NONE       cterm=NONE      ctermbg=0
 hi Search       term=reverse    cterm=reverse   ctermbg=11      ctermfg=0
