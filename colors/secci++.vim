@@ -16,7 +16,7 @@ hi CursorLine   term=NONE       cterm=NONE      ctermbg=0
 hi Search       term=reverse    cterm=reverse   ctermbg=11      ctermfg=0
 hi Directory    term=bold       ctermfg=39
 hi Function     ctermfg=039
-hi Pmenu        ctermbg=0
+hi Pmenu        ctermbg=0       ctermfg=15
 hi cType        ctermfg=118
 hi Type         ctermfg=204
 hi Visual       ctermbg=0
