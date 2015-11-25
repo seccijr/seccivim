@@ -2,7 +2,7 @@
 " Maintainer:   Carlos I. Pérez Sechi <secci.jr@gmail.com>
 " Last Change:  24 november 2015.
 
-set background=dark
+set background=light
 hi clear
 if exists("syntax_on")
     syntax reset
